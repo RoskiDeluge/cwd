@@ -2,29 +2,75 @@
     Property: Value;
 } */
 
+
 body {
-    background-image: url(img/bonnat_detail.png);
-    background-size: cover;
+    /* background-image: url(img/bonnat_detail.png);
+    background-size: cover; */ 
+    background-color: yellow;
 }
 
 h1 {
     text-align: center;
-    color:#FF0191;
+    /*color:#FF0191;*/
 }
 
 h4 {
-    color: #74FF01;
+    /*color: #74FF01;*/
     text-align: center;
     border: 2px solid rgba(255, 176, 170, 0.5);
     cursor: pointer;
 }
 
 p {
-    color:orange;
+    color: tomato;
+}
+
+p {
+    line-height: 45px;
+    font-style: italic;
+    /*font-weight: bold;*/
+    font-size: 150%;
+    font-family: Impact, Helvetica;
 }
 
 li {
     list-style: none;
     display: inline-block;
+}
+
+img {
+    float: right;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+/*Class selectors*/
+
+.webtext:first-child {
+    border: 5px solid violet;
+}
+
+.active {
+    color: red;
+}
+
+.spectacular {
+    font-family: Impact;
+    font-style: italic;
+    background: linear-gradient(to right, 
+    red, orange, yellow, green, blue, indigo, violet);
+}
+
+/*ID selectors*/
+
+#div1 {
+    background: rgba(0, 0, 255, .2);
+}
+
+#div2 {
+    background: rgba(0, 255, 0, .2);
 }
 
